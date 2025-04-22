@@ -9,4 +9,8 @@ import {Component, Input} from '@angular/core'
 
 export class BotaoPrincipalComponent{
   @Input() propriedade = ''
+
+  getAlert(){
+    alert(this.propriedade)
+  }
 }
