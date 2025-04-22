@@ -6,4 +6,6 @@ import {Component} from '@angular/core'
   styleUrls: ['./botao-principal.component.css'],
 })
 
-export class BotaoPrincipalComponent{}
+export class BotaoPrincipalComponent{
+  buttonText = ['Comprar', 'Vender']
+}
