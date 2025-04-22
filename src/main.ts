@@ -13,7 +13,6 @@ import { BotaoPrincipalComponent } from './botao-principal/botao-principal.compo
       Learn more about Angular
     </a>
     <menu-component></menu-component>
-    <botao-principal></botao-principal>
   `,
 })
 export class App {
